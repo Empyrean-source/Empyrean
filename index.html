@@ -1,71 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Empyrean – Crafting Digital Empires</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Empyrean | Crafting Digital Empires</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Open Sans', sans-serif;
-      background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
-      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b0c10;
+      color: #ffffff;
       scroll-behavior: smooth;
     }
     header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
       text-align: center;
-      padding: 100px 20px 60px;
-      background: radial-gradient(circle, #1f1c2c, #302b63);
+      padding: 100px 20px;
     }
     header h1 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 3rem;
-      margin-bottom: 20px;
+      font-size: 3em;
+      margin: 0;
     }
     header p {
-      font-size: 1.2rem;
-      color: #ccc;
-      max-width: 600px;
-      margin: auto;
+      font-size: 1.3em;
+      color: #ddd;
+      margin-top: 10px;
     }
     section {
-      padding: 80px 20px;
+      padding: 60px 20px;
       max-width: 1000px;
       margin: auto;
     }
     h2 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #f7f7f7;
+      color: #66fcf1;
+      border-bottom: 1px solid #45a29e;
+      padding-bottom: 10px;
     }
-    .service, .testimonial, .blog-post {
-      background: rgba(255, 255, 255, 0.05);
+    .card {
+      background-color: #1f2833;
       padding: 20px;
+      margin: 15px 0;
       border-radius: 10px;
-      margin-bottom: 20px;
-    }
-    .service:hover, .testimonial:hover, .blog-post:hover {
-      background: rgba(255, 255, 255, 0.1);
-    }
-    .cta {
-      text-align: center;
-      margin-top: 40px;
-    }
-    .cta a {
-      background: #8e2de2;
-      color: white;
-      padding: 12px 24px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
+      box-shadow: 0 0 10px #00000050;
     }
     footer {
       text-align: center;
-      padding: 40px 20px;
-      background-color: #0f0c29;
-      color: #aaa;
+      padding: 30px;
+      background: #0b0c10;
+      color: #777;
+      font-size: 0.9em;
+    }
+    a {
+      color: #66fcf1;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -73,59 +60,38 @@
 
   <header>
     <h1>Empyrean</h1>
-    <p>Crafting Digital Empires. Empowering Legacies.<br>Where Technology Meets Infinity.</p>
+    <p>Crafting Digital Empires. Empowering Legacies.</p>
   </header>
 
   <section id="services">
-    <h2>🚀 Our Services</h2>
-    <div class="service">
-      <h3>Website Development</h3>
-      <p>We build powerful websites with stunning UI/UX that reflect your brand legacy.</p>
-    </div>
-    <div class="service">
-      <h3>Digital Empire Design</h3>
-      <p>Strategic architecture for digital presence, crafted with visionary storytelling.</p>
-    </div>
-    <div class="service">
-      <h3>Subscription-based Web Plans</h3>
-      <p>Easy, affordable, and powerful solutions to launch your dream site monthly.</p>
-    </div>
+    <h2>🌐 Our Services</h2>
+    <div class="card">⚙️ Custom Website Development</div>
+    <div class="card">🎨 UI/UX Design with Cosmic Precision</div>
+    <div class="card">🚀 Digital Branding for Visionaries</div>
   </section>
 
   <section id="testimonials">
-    <h2>💬 What Founders Say</h2>
-    <div class="testimonial">
-      <p>"Empyrean transformed my brand into a digital powerhouse. Their designs are cosmic!"</p>
-      <p><strong>– Aditya Rao, Startup Founder</strong></p>
-    </div>
-    <div class="testimonial">
-      <p>"I’ve worked with many devs, but Empyrean truly understands legacy and impact."</p>
-      <p><strong>– Meera Thakur, CEO of Lightspace</strong></p>
-    </div>
+    <h2>💬 Testimonials</h2>
+    <div class="card">“Empyrean transformed our vision into a stunning digital empire.” – Founder, Starbyte</div>
+    <div class="card">“From idea to identity, Empyrean is unmatched.” – CEO, NeonMind</div>
   </section>
 
   <section id="blog">
-    <h2>🪐 Insights from the Galaxy</h2>
-    <div class="blog-post">
-      <h3>The Rise of Digital Empires</h3>
-      <p>Why building your digital presence today is like owning real estate in the future.</p>
-    </div>
-    <div class="blog-post">
-      <h3>Empyrean UI/UX Philosophy</h3>
-      <p>Crafting interfaces that feel like cinematic journeys — immersive and memorable.</p>
-    </div>
+    <h2>📝 Latest From Our Blog</h2>
+    <div class="card"><strong>⚡ 5 Secrets to Branding in the AI Age</strong><br/>Discover the new rules of digital influence in the cosmos.</div>
+    <div class="card"><strong>🌌 Why Your Website is Your Universe</strong><br/>We break down the philosophy of design & conversion.</div>
   </section>
 
   <section id="contact">
     <h2>📩 Contact Us</h2>
-    <p>Want to launch your empire? Let's talk.</p>
-    <div class="cta">
-      <a href="mailto:your@email.com">Start the Journey</a>
+    <div class="card">
+      <p>Interested in working with us?</p>
+      <p>Email us: <a href="mailto:contact@empyrean.digital">contact@empyrean.digital</a></p>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Empyrean | All Rights Reserved | Crafted Among Stars ✨</p>
+    © 2025 Empyrean | Crafted in the Cosmos.
   </footer>
 
 </body>
